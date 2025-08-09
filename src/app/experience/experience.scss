@@ -1,0 +1,70 @@
+.experience {
+    padding: 4rem 0;
+  }
+  
+  .timeline {
+    position: relative;
+    padding-left: 50px;
+    margin-top: 2rem;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      left: 20px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background-color: #0066cc;
+    }
+    
+    &-item {
+      position: relative;
+      margin-bottom: 2rem;
+      
+      &::before {
+        content: '';
+        position: absolute;
+        left: -50px;
+        top: 5px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #0066cc;
+        border: 3px solid white;
+      }
+    }
+    
+    &-date {
+      font-weight: 600;
+      color: #0066cc;
+      margin-bottom: 0.5rem;
+    }
+    
+    &-content {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 5px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      
+      h3 {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      h4 {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 1rem;
+        font-weight: 500;
+      }
+      
+      ul {
+        padding-left: 20px;
+        
+        li {
+          margin-bottom: 0.5rem;
+          color: #555;
+        }
+      }
+    }
+  }

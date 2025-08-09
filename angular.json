@@ -80,11 +80,9 @@
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+  "src/favicon.ico",
+  "src/assets"
+],
             "styles": [
               "src/styles.scss"
             ]
@@ -92,5 +90,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "0a7c82ae-5c7b-43ce-9d1a-196f37cafe28"
   }
 }
