@@ -33,10 +33,7 @@ import { CommonModule } from '@angular/common';
           <div class="footer-section">
             <h4>Skills</h4>
             <ul>
-              <li>Industrial Automation</li>
-              <li>Electromechanical Maintenance</li>
-              <li>Project Management</li>
-              <li>Energy Optimization</li>
+              
             </ul>
           </div>
           
